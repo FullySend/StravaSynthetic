@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "a0BGBzHQTzc=",
+  "success": true,
+  "projectFilePath": "/Users/albertoelizondo/RiderProjects/Faker/StravaSynthetic/StravaSynthetic.csproj",
+  "expectedPackageFiles": [
+    "/Users/albertoelizondo/.nuget/packages/bogus/35.6.4/bogus.35.6.4.nupkg.sha512",
+    "/Users/albertoelizondo/.nuget/packages/system.io.pipelines/9.0.10/system.io.pipelines.9.0.10.nupkg.sha512",
+    "/Users/albertoelizondo/.nuget/packages/system.text.encodings.web/9.0.10/system.text.encodings.web.9.0.10.nupkg.sha512",
+    "/Users/albertoelizondo/.nuget/packages/system.text.json/9.0.10/system.text.json.9.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

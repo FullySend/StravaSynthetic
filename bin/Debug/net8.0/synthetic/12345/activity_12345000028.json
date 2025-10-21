@@ -1,0 +1,8 @@
+{
+  "activityId": 12345000028,
+  "activityName": "Synthetic input transmitter",
+  "startLocal": "2025-10-20T10:21:22.2195107",
+  "elapsedTimeSec": 1029,
+  "movingTimeSec": 943,
+  "hasHeartRate": true
+}

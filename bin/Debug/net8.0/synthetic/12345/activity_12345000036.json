@@ -1,0 +1,8 @@
+{
+  "activityId": 12345000036,
+  "activityName": "Synthetic bypass driver",
+  "startLocal": "2025-10-15T05:55:52.4557625",
+  "elapsedTimeSec": 10192,
+  "movingTimeSec": 9458,
+  "hasHeartRate": true
+}

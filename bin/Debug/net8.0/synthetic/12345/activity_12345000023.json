@@ -1,0 +1,8 @@
+{
+  "activityId": 12345000023,
+  "activityName": "Synthetic generate matrix",
+  "startLocal": "2025-09-27T17:11:09.629819",
+  "elapsedTimeSec": 7455,
+  "movingTimeSec": 6922,
+  "hasHeartRate": true
+}

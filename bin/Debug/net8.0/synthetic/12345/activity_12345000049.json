@@ -1,0 +1,8 @@
+{
+  "activityId": 12345000049,
+  "activityName": "Synthetic program sensor",
+  "startLocal": "2025-10-09T16:16:16.8669629",
+  "elapsedTimeSec": 5229,
+  "movingTimeSec": 4830,
+  "hasHeartRate": true
+}

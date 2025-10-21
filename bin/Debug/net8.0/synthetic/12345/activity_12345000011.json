@@ -1,0 +1,8 @@
+{
+  "activityId": 12345000011,
+  "activityName": "Synthetic copy alarm",
+  "startLocal": "2025-10-16T09:26:28.0408482",
+  "elapsedTimeSec": 1053,
+  "movingTimeSec": 989,
+  "hasHeartRate": true
+}

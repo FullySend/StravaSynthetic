@@ -1,0 +1,8 @@
+{
+  "activityId": 12345000015,
+  "activityName": "Synthetic index firewall",
+  "startLocal": "2025-10-05T17:09:24.8363678",
+  "elapsedTimeSec": 691,
+  "movingTimeSec": 633,
+  "hasHeartRate": true
+}

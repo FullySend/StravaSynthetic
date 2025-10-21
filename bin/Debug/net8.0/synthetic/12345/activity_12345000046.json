@@ -1,0 +1,8 @@
+{
+  "activityId": 12345000046,
+  "activityName": "Synthetic generate monitor",
+  "startLocal": "2025-10-14T16:33:28.5235763",
+  "elapsedTimeSec": 6004,
+  "movingTimeSec": 5531,
+  "hasHeartRate": true
+}

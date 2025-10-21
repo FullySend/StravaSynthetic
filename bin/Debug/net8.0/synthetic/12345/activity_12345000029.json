@@ -1,0 +1,8 @@
+{
+  "activityId": 12345000029,
+  "activityName": "Synthetic reboot program",
+  "startLocal": "2025-09-22T21:59:18.3767707",
+  "elapsedTimeSec": 9222,
+  "movingTimeSec": 8965,
+  "hasHeartRate": true
+}

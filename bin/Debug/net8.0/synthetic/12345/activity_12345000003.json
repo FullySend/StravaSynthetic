@@ -1,0 +1,8 @@
+{
+  "activityId": 12345000003,
+  "activityName": "Synthetic compress port",
+  "startLocal": "2025-10-05T12:49:55.3312205",
+  "elapsedTimeSec": 3866,
+  "movingTimeSec": 3719,
+  "hasHeartRate": true
+}

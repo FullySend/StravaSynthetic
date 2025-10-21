@@ -1,0 +1,8 @@
+{
+  "activityId": 12345000043,
+  "activityName": "Synthetic transmit capacitor",
+  "startLocal": "2025-09-22T09:50:16.8955097",
+  "elapsedTimeSec": 5359,
+  "movingTimeSec": 4882,
+  "hasHeartRate": true
+}

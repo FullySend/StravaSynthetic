@@ -1,0 +1,8 @@
+{
+  "activityId": 12345000034,
+  "activityName": "Synthetic index circuit",
+  "startLocal": "2025-10-07T08:31:42.2063612",
+  "elapsedTimeSec": 4152,
+  "movingTimeSec": 3752,
+  "hasHeartRate": true
+}

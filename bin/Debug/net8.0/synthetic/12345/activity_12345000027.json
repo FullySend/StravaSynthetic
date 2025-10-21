@@ -1,0 +1,8 @@
+{
+  "activityId": 12345000027,
+  "activityName": "Synthetic parse bandwidth",
+  "startLocal": "2025-10-17T12:28:43.0254094",
+  "elapsedTimeSec": 3877,
+  "movingTimeSec": 3752,
+  "hasHeartRate": true
+}
