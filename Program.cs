@@ -160,7 +160,9 @@ namespace StravaSynthetic
         static void Main(string[] args)
         {
             // Example usage
-            SyntheticGenerator.ProduceAndWrite(athleteId: 12345L, count: 50, seed: 42, outputRoot: "./synthetic");
+            SyntheticGenerator.ProduceAndWrite(athleteId: 10000, count: 5, seed: 40, outputRoot: "./synthetic");
+            SyntheticGenerator.ProduceAndWrite(athleteId: 10001, count: 5, seed: 41, outputRoot: "./synthetic");
+            SyntheticGenerator.ProduceAndWrite(athleteId: 10002, count: 5, seed: 42, outputRoot: "./synthetic");
             Console.WriteLine("Done.");
         }
     }
