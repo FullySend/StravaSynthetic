@@ -1,8 +1,0 @@
-{
-  "activityId": 12345000002,
-  "activityName": "Synthetic compress monitor",
-  "startLocal": "2025-10-05T07:33:43.8409142",
-  "elapsedTimeSec": 2371,
-  "movingTimeSec": 2190,
-  "hasHeartRate": true
-}

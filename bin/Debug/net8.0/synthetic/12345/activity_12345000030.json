@@ -1,8 +1,0 @@
-{
-  "activityId": 12345000030,
-  "activityName": "Synthetic generate alarm",
-  "startLocal": "2025-10-01T22:37:46.3662794",
-  "elapsedTimeSec": 2561,
-  "movingTimeSec": 2485,
-  "hasHeartRate": true
-}

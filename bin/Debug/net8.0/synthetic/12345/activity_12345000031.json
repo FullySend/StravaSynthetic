@@ -1,8 +1,0 @@
-{
-  "activityId": 12345000031,
-  "activityName": "Synthetic override driver",
-  "startLocal": "2025-10-13T18:39:20.889448",
-  "elapsedTimeSec": 10122,
-  "movingTimeSec": 9122,
-  "hasHeartRate": true
-}

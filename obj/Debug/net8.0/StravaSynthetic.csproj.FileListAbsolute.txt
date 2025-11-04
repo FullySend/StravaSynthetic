@@ -19,3 +19,4 @@
 /Users/albertoelizondo/RiderProjects/Faker/StravaSynthetic/obj/Debug/net8.0/StravaSynthetic.pdb
 /Users/albertoelizondo/RiderProjects/Faker/StravaSynthetic/obj/Debug/net8.0/StravaSynthetic.genruntimeconfig.cache
 /Users/albertoelizondo/RiderProjects/Faker/StravaSynthetic/obj/Debug/net8.0/ref/StravaSynthetic.dll
+/Users/albertoelizondo/RiderProjects/Faker/StravaSynthetic/obj/Debug/net8.0/StravaSynthetic.sourcelink.json

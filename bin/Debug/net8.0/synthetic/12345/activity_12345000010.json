@@ -1,8 +1,0 @@
-{
-  "activityId": 12345000010,
-  "activityName": "Synthetic transmit alarm",
-  "startLocal": "2025-10-17T05:56:22.5736257",
-  "elapsedTimeSec": 3149,
-  "movingTimeSec": 2906,
-  "hasHeartRate": true
-}

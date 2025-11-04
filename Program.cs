@@ -12,6 +12,7 @@ namespace StravaSynthetic
 
     public static class SyntheticGenerator
     {
+        
         // Compute seconds above threshold similar to your StravaClient method
         public static int ComputeSecondsAbove(IList<int> times, IList<int> hr, int threshold)
         {
@@ -25,7 +26,7 @@ namespace StravaSynthetic
             return count;
         }
 
-        // Generate HR stream (list of ints) with basic warmup/intervals/variability
+        // Generate HR stream (list of ints) with warmup/intervals/variability
         public static (List<int> times, List<int> hr) GenerateStreams(
             int durationSeconds,
             int samplingSeconds = 1,
@@ -40,7 +41,7 @@ namespace StravaSynthetic
             var times = new List<int>(durationSeconds / samplingSeconds + 1);
             var hr = new List<int>(durationSeconds / samplingSeconds + 1);
 
-            // Simple model: warmup ramp, steady-state with occasional intervals, cooldown
+            // Model: warmup ramp, steady-state with occasional intervals, cooldown
             for (int t = 0; t <= durationSeconds; t += samplingSeconds)
             {
                 times.Add(t);
@@ -80,19 +81,24 @@ namespace StravaSynthetic
 
             return (times, hr);
         }
-
+        
+        private static readonly string[] Activities =
+        [
+            "Walking", "Running", "Weight Training", "Swimming", "Biking", "Pilates", "Yoga"
+        ];
         // Bogus faker for the activity summary (no streams here)
         public static Faker<ActivitySummary> CreateActivityFaker(int seed = 0)
         {
             Randomizer.Seed = new Random(seed);
             return new Faker<ActivitySummary>()
                 .StrictMode(true)
-                .RuleFor(a => a.ActivityId, f => 0L) // we'll overwrite with our own positive ID
-                .RuleFor(a => a.ActivityName, (f, a) => $"Synthetic {f.Hacker.Verb()} {f.Hacker.Noun()}")
+                .RuleFor(a => a.ActivityId, f => 0) // we'll overwrite with our own positive ID
+                .RuleFor(a => a.ActivityName, (f, a) => f.PickRandom(Activities))
                 .RuleFor(a => a.StartLocal, f => f.Date.RecentOffset(days: 30).DateTime)
                 .RuleFor(a => a.ElapsedTimeSec, f => f.Random.Int(600, 3 * 60 * 60))
                 .RuleFor(a => a.MovingTimeSec, (f, a) => Math.Max(0, a.ElapsedTimeSec - f.Random.Int(0, (int)(a.ElapsedTimeSec * 0.1))))
                 .RuleFor(a => a.HasHeartRate, f => true);
+            
         }
 
         // Generate N activities for an athlete and write:
@@ -112,8 +118,8 @@ namespace StravaSynthetic
             for (int i = 0; i < count; i++)
             {
                 var summary = faker.Generate();
-
-                // ✅ Always-positive, predictable
+                
+                
                 var activityId = baseId + (i + 1);
                 summary = summary with { ActivityId = activityId };
 
@@ -154,6 +160,7 @@ namespace StravaSynthetic
             }
         }
     }
+    // Athlete, Activity, Stream
 
     class Program
     {
